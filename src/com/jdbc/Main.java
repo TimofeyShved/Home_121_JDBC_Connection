@@ -7,7 +7,7 @@ public class Main {
         // Блок объявления констант
         public static final String DB_URL = "jdbc:h2:/c:/Users/Programmer/IdeaProjects/Home_121_JDBC_Connection/db/stockExchange";
         public static final String DB_Driver = "org.h2.Driver";
-        
+
         public static void main(String[] args) {
             try {
                 Class.forName(DB_Driver); //Проверяем наличие JDBC драйвера для работы с БД
